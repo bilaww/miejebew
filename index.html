@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mie jebew</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Rubik:wght@400;500;600;700&family=Shadows+Into+Light&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="images/hero-banner-bg.png">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <h1>
+        <a href="#" class="logo">Mie jebew<span class="span">.</span></a>
+      </h1>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="nav-item">
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#about" class="navbar-link" data-nav-link>About Us</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#food-menu" class="navbar-link" data-nav-link>Shop</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="navbar-link" data-nav-link>Contact Us</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="header-btn-group">
+        <button class="search-btn" aria-label="Search" data-search-btn>
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+
+        <button class="btn btn-hover">Reservasi</button>
+
+        <button class="nav-toggle-btn" aria-label="Toggle Menu" data-menu-toggle-btn>
+          <span class="line top"></span>
+          <span class="line middle"></span>
+          <span class="line bottom"></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <!-- 
+    - #SEARCH BOX
+  -->
+
+  <div class="search-container" data-search-container>
+
+    <div class="search-box">
+      <input type="search" name="search" aria-label="Search here" placeholder="Type keywords here..."
+        class="search-input">
+
+      <button class="search-submit" aria-label="Submit search" data-search-submit-btn>
+        <ion-icon name="search-outline"></ion-icon>
+      </button>
+    </div>
+
+    <button class="search-close-btn" aria-label="Cancel search" data-search-close-btn></button>
+
+  </div>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home" style="background-image: url('images/hero-bg.jpg')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">Makanan fav</p>
+
+            <h2 class="h1 hero-title">Makan malam lezat di bangkalan!</h2>
+
+            <p class="hero-text">Makanan adalah segala zat yang dikonsumsi untuk memberikan dukungan nutrisi bagi suatu organisme.</p>
+
+            <button class="btn">Memesan</button>
+
+          </div>
+
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PROMO
+      -->
+
+      
+              
+      <!-- 
+        - #FOOD MENU
+      -->
+
+      <section class="section food-menu" id="food-menu">
+        <div class="container">
+
+          <p class="section-subtitle">Hidangan populer</p>
+
+          <h2 class="h2 section-title">
+            Makanan lezat <span class="span">kami</span>
+          </h2>
+
+          <p class="section-text">
+            Makanan adalah segala zat yang dikonsumsi untuk memberikan dukungan nutrisi bagi suatu organisme.
+          </p>
+
+          <ul class="fiter-list">
+
+            <li>
+              <button class="filter-btn  active">All</button>
+            </li>
+
+            <li>
+              <button class="filter-btn">Bakso bakar</button>
+            </li>
+
+            <li>
+              <button class="filter-btn">Mie jebew</button>
+            </li>
+
+            <li>
+              <button class="filter-btn">Nuget</button>
+            </li>
+
+            <li>
+              <button class="filter-btn">Sosis Bakar</button>
+            </li>
+
+          </ul>
+
+          <ul class="food-menu-list">
+
+            <li>
+              <div class="food-menu-card">
+
+                <div class="card-banner">
+                  <img src="images/bakso mercon.jpg" width="300" height="300" loading="lazy"
+                    alt="Fried Chicken Unlimited" class="w-100">
+
+                  <div class="badge">-15%</div>
+
+                  <button class="btn food-menu-btn">Pesan sekarang</button>
+                </div>
+
+                <div class="wrapper">
+                  <p class="category">Food</p>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+
+                <h3 class="h3 card-title">bakso mercon</h3>
+
+                <div class="price-wrapper">
+
+                  <p class="price-text">Rp:</p>
+
+                  <data class="price">15.000</data>
+
+                  <del class="del" value="30.000">30.000</del>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="food-menu-card">
+
+                <div class="card-banner">
+                  <img src="images/miejebew(menu2).jpg" width="300" height="300" loading="lazy"
+                    alt="Burger King Whopper" class="w-100">
+
+                  <div class="badge">-10%</div>
+
+                  <button class="btn food-menu-btn">Pesan sekarang</button>
+                </div>
+
+                <div class="wrapper">
+                  <p class="category">Food</p>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+
+                <h3 class="h3 card-title">Mie jebew</h3>
+
+                <div class="price-wrapper">
+
+                  <p class="price-text">Rp:</p>
+
+                  <data class="price" value="29.00">8000</data>
+
+                  <del class="del">16.000</del>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="food-menu-card">
+
+                <div class="card-banner">
+                  <img src="images/nuget(menu3).jpg" width="300" height="300" loading="lazy"
+                    alt="White Castle Pizzas" class="w-100">
+
+                  <div class="badge">-5%</div>
+
+                  <button class="btn food-menu-btn">Pesan sekarang</button>
+                </div>
+
+                <div class="wrapper">
+                  <p class="category">Food</p>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+
+                <h3 class="h3 card-title">Nugget</h3>
+
+                <div class="price-wrapper">
+
+                  <p class="price-text">Rp:</p>
+
+                  <data class="price" value="7000">7000</data>
+
+                  <del class="del">14.000</del>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="food-menu-card">
+
+                <div class="card-banner">
+                  <img src="images/sosisbakar(menu4).jpg" width="300" height="300" loading="lazy"
+                    alt="Bell Burrito Supreme" class="w-100">
+
+                  <div class="badge">-2%</div>
+
+                  <button class="btn food-menu-btn">Pesan sekarang</button>
+                </div>
+
+                <div class="wrapper">
+                  <p class="category">Food</p>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+
+                <h3 class="h3 card-title">Sosis Bakar</h3>
+
+                <div class="price-wrapper">
+
+                  <p class="price-text">Rp:</p>
+
+                  <data class="price" value="6000">6000</data>
+
+                  <del class="del">8000</del>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="food-menu-card">
+
+                <div class="card-banner">
+                  <img src="images/banchips(menu5).jpg" width="300" height="300" loading="lazy"
+                    alt="Kung Pao Chicken BBQ" class="w-100">
+
+                  <div class="badge">-5%</div>
+
+                  <button class="btn food-menu-btn">Pesan sekarang</button>
+                </div>
+
+                <div class="wrapper">
+                  <p class="category">Food</p>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+
+                <h3 class="h3 card-title">Branchips</h3>
+
+                <div class="price-wrapper">
+
+                  <p class="price-text">Rp:</p>
+
+                  <data class="price" value="15.000">15.000</data>
+
+                  <del class="del">20.000</del>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="food-menu-card">
+
+                <div class="card-banner">
+                  <img src="images/pentolbakar(menu6).jpg" width="300" height="300" loading="lazy"
+                    alt="Wendy's Chicken" class="w-100">
+
+                  <div class="badge">-10%</div>
+
+                  <button class="btn food-menu-btn">Pesan sekarag</button>
+                </div>
+
+                <div class="wrapper">
+                  <p class="category">Food</p>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+
+                <h3 class="h3 card-title">Pentol bakar</h3>
+
+                <div class="price-wrapper">
+
+                  <p class="price-text">Rp:</p>
+
+                  <data class="price" value="10.000">10.000</data>
+
+                  <del class="del">20.000</del>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+
+        </div>
+      </section>
+
+
+
+
+      <!-- 
+        - #TESTIMONIALS
+      -->
+
+      <section class="section section-divider white testi">
+        <div class="container">
+
+          <p class="section-subtitle">Testimonial</p>
+
+          <h2 class="h2 section-title">
+            Ulasan pelanggan <span class="span">Kami</span>
+          </h2>
+
+          <p class="section-text">
+            Makanan adalah segala zat yang dikonsumsi untuk memberikan dukungan nutrisi bagi suatu organisme.
+          </p>
+
+          <ul class="testi-list has-scrollbar">
+
+            <li class="testi-item">
+              <div class="testi-card">
+
+                <div class="profile-wrapper">
+
+                  <figure class="avatar">
+                    <img src="images/avatar-1.jpg" width="80" height="80" loading="lazy" alt="Robert William">
+                  </figure>
+
+                  <div>
+                    <h3 class="h4 testi-name">Robert William</h3>
+
+                    <p class="testi-title">CEO Kingfisher</p>
+                  </div>
+
+                </div>
+
+                <blockquote class="testi-text">
+                  "Saya akan tersesat tanpa restorant.Saya ingin
+                  mengucapkan terimakasih secara pribadi
+                  atas produk anda yangluar biasa."
+                </blockquote>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testi-item">
+              <div class="testi-card">
+
+                <div class="profile-wrapper">
+
+                  <figure class="avatar">
+                    <img src="images/avatar-2.jpg" width="80" height="80" loading="lazy" alt="Thomas Josef">
+                  </figure>
+
+                  <div>
+                    <h3 class="h4 testi-name">Thomas Josef</h3>
+
+                    <p class="testi-title">CEO Getforce</p>
+                  </div>
+
+                </div>
+
+                <blockquote class="testi-text">
+                  "Saya akan tersesat tanpa restorant.Saya ingin
+                  mengucapkan terimakasih secara pribadi
+                  atas produk anda yangluar biasa."
+                </blockquote>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testi-item">
+              <div class="testi-card">
+
+                <div class="profile-wrapper">
+
+                  <figure class="avatar">
+                    <img src="images/avatar-3.jpg" width="80" height="80" loading="lazy" alt="Charles Richard">
+                  </figure>
+
+                  <div>
+                    <h3 class="h4 testi-name">Charles Richard</h3>
+
+                    <p class="testi-title">CEO Angela</p>
+                  </div>
+
+                </div>
+
+                <blockquote class="testi-text">
+                  "Saya akan tersesat tanpa restorant.Saya ingin
+                  mengucapkan terimakasih secara pribadi
+                  atas produk anda yangluar biasa."
+                </blockquote>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+
+      <!-- 
+        - #BANNER
+      -->
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section section-divider white blog" id="blog">
+        <div class="container">
+
+          <p class="section-subtitle">Postingan Blog Terbaru</p>
+
+          <h2 class="h2 section-title">
+            Ini semua tentang <span class="span">Makanan</span>
+          </h2>
+
+          <p class="section-text">
+           Makanan adalah segala zat yang dikonsumsi untuk memberikan dukungan nutrisi bagi suatu organisme.
+          </p>
+
+          <ul class="blog-list">
+
+            <li>
+              <div class="blog-card">
+
+                <div class="card-banner">
+                  <img src="images/mie peddis(new).jpg" width="600" height="390" loading="lazy"
+                    alt="What Do You Think About Cheese Pizza Recipes?" class="w-100">
+
+                  <div class="badge">Mie peddis (NEW)</div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="card-meta-wrapper">
+
+                    <a href="#" class="card-meta-link">
+                      <ion-icon name="calendar-outline"></ion-icon>
+
+                      <time class="meta-info" datetime="2022-01-01">Jan 01 2024</time>
+                    </a>
+
+                    <a href="#" class="card-meta-link">
+                      <ion-icon name="person-outline"></ion-icon>
+
+                      <p class="meta-info">By. Andiny Amelia</p>
+                    </a>
+
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Apa pendapat anda tentang Mie peddis (NEW)?</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Pakar keuangan mendukung atau membantu untuk mengetahui cara mana yang dapat digunakan untuk mengumpulkan dana lebih banyak. 
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    <span>Baca selengkapya</span>
+
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <div class="card-banner">
+                  <img src="images/pentol bakar.jpg" width="600" height="390" loading="lazy"
+                    alt="Making Chicken Strips With New Delicious Ingridents." class="w-100">
+
+                  <div class="badge">Pentol bakar</div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="card-meta-wrapper">
+
+                    <a href="#" class="card-meta-link">
+                      <ion-icon name="calendar-outline"></ion-icon>
+
+                      <time class="meta-info" datetime="2022-01-01">Jan 01 2024</time>
+                    </a>
+
+                    <a href="#" class="card-meta-link">
+                      <ion-icon name="person-outline"></ion-icon>
+
+                      <p class="meta-info">By. Andiny Amelia</p>
+                    </a>
+
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Membuat pentol dengan bahan baru yang lezat.</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Pakar keuangan mendukung atau membantu untuk mengetahui cara mana yang dapat digunakan untuk mengumpulkan dana lebih banyak. 
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    <span>Baca selengkapnya</span>
+
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+         
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top" style="background-image: url('images/footer-illustration.png')">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="" class="logo">Penggila makanan<span class="span">.</span></a>
+
+          <p class="footer-text">
+            Pakar keuangan mendukung atau membantu untuk mengetahui cara mana yang dapat digunakan untuk mengumpulkan dana lebih banyak. 
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-WhatsApp"></ion-icon>
+              </a>
+            </li>
+
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+          
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Contact Info</p>
+          </li>
+
+          <li>
+            <p class="footer-list-item">(+62) 82332254430</p>
+          </li>
+
+          <li>
+            <p class="footer-list-item">miejebew_bangkalan</p>
+          </li>
+
+          <li>
+            <address class="footer-list-item">Ruko Abuyaman Senenan</address>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Jam buka</p>
+          </li>
+
+          <li>
+            <p class="footer-list-item">Senin-Sabtu: 08:00-22:00</p>
+          </li>
+       
+          <li>
+            <p class="footer-list-item">Minggu: 10:00-16:00</p>
+          </li>
+
+        </ul>
+
+        <form action="" class="footer-form">
+
+          <p class="footer-list-title">Contact</p>
+
+          <div class="input-wrapper">
+
+            <input type="text" name="full_nama" required placeholder="Nama anda" aria-label="nama anda"
+              class="input-field">
+
+            <input type="email" name="email_address" required placeholder="Email" aria-label="Email"
+              class="input-field">
+
+          </div>
+
+          <div class="input-wrapper">
+
+            <select name="total_person" aria-label="Total person" class="input-field">
+              <option value="person">Orang</option>
+              <option value="2 person">2 Orang</option>
+              <option value="3 person">3 Orang</option>
+              <option value="4 person">4 Orang</option>
+              <option value="5 person">5 Orang</option>
+            </select>
+
+            <input type="date" name="booking_date" aria-label="Reservation date" class="input-field">
+
+          </div>
+
+          <textarea name="Pesanan" required placeholder="Pesanan" aria-label="Pesanan" class="input-field"></textarea>
+
+          <button type="submit" class="btn">Contact</button>
+
+        </form>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="copyright-text">
+          &copy; 2023 <a href="#" class="copyright-link">Nabila</a> All Rights Reserved.
+        </p>
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
+    <ion-icon name="chevron-up"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
